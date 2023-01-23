@@ -1,0 +1,290 @@
+@media (max-width: 1300px) {
+  body {
+    background: url(assets/bg-main-desktop.png) no-repeat,
+      url(assets/bg-pattern-1.svg) right -6vw top -4vw / auto 500px no-repeat;
+  }
+
+  .primary-heading {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .hero-text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    background: url(assets/bg-main-desktop.png) no-repeat,
+      url(assets/bg-pattern-1.svg) right -6vw top -4vw / auto 350px no-repeat;
+  }
+
+  .header-container {
+    padding-left: 100px;
+  }
+
+  .hero {
+    padding-left: 100px;
+  }
+
+  .premium {
+    margin: 0 100px;
+  }
+
+  footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .address-div {
+    margin-right: 130px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .h1-div {
+    max-width: 620px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .primary-heading {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .header-container {
+    padding-left: 50px;
+  }
+
+  .hero {
+    padding-left: 50px;
+    padding-bottom: 208px;
+    padding-top: 49px;
+  }
+
+  .premium {
+    margin: 0 50px;
+  }
+
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .address-div {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 770px) {
+  body {
+    background: url(assets/bg-main-tablet.png) no-repeat,
+      url(assets/bg-pattern-1.svg) right -6vw top -4vw / 266px 400px no-repeat;
+    z-index: -99;
+    position: relative;
+  }
+
+  .header-container {
+    padding-left: 40px;
+  }
+
+  .hero {
+    padding-left: 40px;
+    padding-top: 95px;
+    padding-bottom: 250px;
+  }
+
+  .h1-div {
+    max-width: 520px;
+    margin-bottom: 0;
+  }
+
+  .primary-heading {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+    margin-bottom: 28px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* * premium */
+
+  .premium {
+    margin: 0 36px;
+  }
+
+  .equailizer-app {
+    height: 556px;
+    top: -138px;
+    left: 64px;
+  }
+  .bg-pattern-2 {
+    width: 280px;
+    height: 420px;
+    top: -31px;
+    left: 229px;
+  }
+
+  .h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .buy {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .buy-container {
+    padding: 48px;
+  }
+
+  .premium-buy {
+    max-width: 399px;
+    top: 150px;
+    right: 58px;
+  }
+
+  .download {
+    width: 296px;
+  }
+
+  /* * footer */
+
+  footer {
+    display: block;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 85px;
+  }
+
+  .email-icons {
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    margin-bottom: 32px;
+  }
+
+  .address-div {
+    max-width: 366px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 412px) {
+  body {
+    background: url(assets/bg-main-mobile.png) no-repeat;
+    z-index: -99;
+    position: relative;
+  }
+
+  .header-container {
+    padding-left: 24px;
+    padding-top: 40px;
+  }
+
+  .hero {
+    padding-left: 24px;
+    padding-top: 64px;
+    padding-bottom: 166px;
+  }
+
+  .h1-div {
+    max-width: 327px;
+    margin-bottom: 0;
+  }
+
+  .primary-heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  /* * premium */
+
+  .premium {
+    margin: 0;
+  }
+
+  .equailizer-app {
+    height: 430px;
+    top: -98px;
+    left: 22%;
+  }
+
+  .bg-pattern-2 {
+    width: 280px;
+    height: 420px;
+    top: 0px;
+    left: 48px;
+  }
+
+  .h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .buy {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .buy-container {
+    padding: 48px;
+  }
+
+  .premium-buy {
+    max-width: 100%;
+    top: 380px;
+    right: 0;
+  }
+
+  .download {
+    width: 296px;
+  }
+
+  /* * footer */
+
+  footer {
+    padding: 0 50px;
+    display: block;
+    padding-top: 410px;
+    padding-bottom: 80px;
+  }
+
+  .email-icons {
+    display: block;
+  }
+
+  .footer-logo {
+    margin-bottom: 32px;
+  }
+
+  .address-div {
+    max-width: 366px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 64px;
+  }
+}

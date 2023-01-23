@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(assets/bg-main-desktop.png) no-repeat,
+    url(assets/bg-pattern-1.svg) right top -4vw no-repeat;
+  z-index: -99;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* * header */
+
+.header-container {
+  padding-left: 165px;
+  padding-top: 62px;
+}
+
+/* * hero */
+
+.hero {
+  padding-bottom: 320px;
+  padding-left: 165px;
+  padding-top: 127px;
+}
+
+.primary-heading {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  color: #191826;
+}
+
+.h1-div {
+  max-width: 1015px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #191826;
+}
+
+.hero-div {
+  max-width: 825px;
+}
+
+/* * premium */
+
+.premium {
+  margin: 0 165px;
+  max-width: 1110px;
+  height: 600px;
+
+  background-color: #191826;
+  border-radius: 12px;
+
+  position: relative;
+
+  z-index: -2;
+}
+
+.equailizer-app {
+  max-width: 312px;
+  height: 642px;
+  position: absolute;
+  top: -213px;
+  left: 102px;
+}
+
+.bg-pattern-2 {
+  position: absolute;
+  left: 336px;
+  top: -40px;
+  z-index: -1;
+}
+
+.premium-buy {
+  background: #fa7453;
+  border-radius: 12px;
+  max-width: 446px;
+  position: absolute;
+  top: 90px;
+  right: 95px;
+}
+
+.buy-container {
+  padding-left: 54px;
+  padding-right: 59px;
+  padding-top: 58px;
+  padding-bottom: 48px;
+}
+
+.h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fcfaf9;
+
+  margin-bottom: 22px;
+}
+
+.buy {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #fcfaf9;
+  margin-bottom: 39px;
+}
+
+.price-flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 46px;
+}
+
+.price {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  /* identical to box height, or 80% */
+
+  color: #fcfaf9;
+}
+
+.price-time {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+}
+
+.ios-download:link,
+.ios-download:visited {
+  display: block;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #fcfaf9;
+
+  background: #191826;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px 0;
+
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+.ios-download:hover,
+.ios-download:active {
+  background: #66e2dc;
+}
+
+.android-download:link,
+.android-download:visited {
+  display: block;
+
+  background: #fcfaf9;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px 0;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #191826;
+  transition: all 0.3s;
+}
+
+.android-download:hover,
+.android-download:active {
+  background: #ffb964;
+}
+
+.icon-android-apple {
+  margin-right: 8px;
+}
+
+/* * footer */
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 165px;
+  padding-top: 202px;
+  padding-bottom: 91px;
+  z-index: -5;
+  position: relative;
+}
+
+.email-icons {
+  display: flex;
+}
+
+.address-div {
+  max-width: 366px;
+  margin-left: 138px;
+  margin-right: 360px;
+}
+
+.address-email {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #191826;
+}
+
+.logos-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.facebook:hover,
+.facebook:active {
+  filter: invert(54%) sepia(90%) saturate(914%) hue-rotate(325deg)
+    brightness(98%) contrast(99%);
+}
